@@ -7,9 +7,9 @@ Repositório responsável pelo conteúdo do meu Portfólio Web.
 
 ## Tecnologias
 
-*HTML
-*CSS
-*Javascript
+* HTML
+* CSS
+* Javascript
 
 ### Would you like to find me ?
 
