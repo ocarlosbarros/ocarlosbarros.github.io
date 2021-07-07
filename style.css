@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-size: 16px;
+  font-family: Oxygen, sans-serif;
+  line-height: 1.6em;
+}
+
+#cabecalho {
+  background-color: rgb(84, 66, 142);
+  padding: 2em;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7);
+  width: 100%;
+  z-index: 2;
+}
+
+#titulo {
+  position: relative;
+  top: 25px;
+  color: white;
+  font-family: Lora, serif;
+  font-size: 3em;
+  width: 350px;
+}
+
+.nav-bar {
+  float: right;
+  margin: 0 4em;
+  vertical-align: baseline;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin: 10px;
+}
+
+a:link {
+  color: rgb(86, 69, 146);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(86, 69, 146);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(6, 141, 157);
+}
+
+.nav-bar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.sobre-mim {
+  text-align: center;
+  margin: 2em;
+  padding: 2em;
+  height: 100vh;
+
+}
+
+h2 {
+  text-align: center;
+  color: rgb(6, 141, 157);
+  margin: 2em;
+  text-transform: uppercase;
+}
+
+.sobre-mim h2 {
+  position: relative;
+  top: 150px;
+}
+
+.sobre-mim p {
+  display: inline-block;
+  text-align: justify;
+  margin-left: 4.5em;
+  width: 50%;
+}
+
+.sobre-mim strong {
+  color: rgb(6, 141, 157);
+}
+
+
+#licoes {
+  width: 80%;
+  margin: auto;
+}
+
+.licoes-container {
+  display: inline-block;
+  padding: 2em;
+}
+
+.lado-esquerdo {
+  float: left;
+  margin-left: 50px;
+}
+
+.lado-direito {
+  float: right;
+  margin-left: 150px;
+}
+
+.projetos {
+  width: 73%;
+  padding: 2em;
+}
+
+#minha_foto {
+  border-radius: 50%;
+  width: 250px;
+  margin-top: 8em;
+}
+
+#rodape {
+  height: 150px;
+  background-color: black;
+  clear: right;
+  padding: 2em;
+}
+
+.article-card p {
+  font-size: 0.8em;
+}
+
+#rodape p {
+  color: white;
+  text-align: right;
+  position: relative;
+  top: 100%;
+}
+
+.hurt {
+  color: transparent;
+  text-shadow: 0 0 0 rgb(86, 69, 146);
+}
+
+.developer {
+  color: rgb(86, 69, 146);
+}
+
+.table-projetos {
+  padding: 1em;
+}
+
+.table-projetos th {
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.table-projetos td {
+  border: 1px solid black;
+  padding: 1em;
+}
+
+#jornada {
+  clear: right;
+  height: 600px;
+  margin: 2em;
+  padding: 2em;
+
+}
+
+#jornada p {
+  margin-bottom: 1.5em;
+  text-align: justify;
+}
+
+#artigos {
+  background-color: rgb(6, 141, 157);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  clear: both;
+  position: relative;
+  top: 0;
+  width: 250px;
+  padding: 0;
+  margin: 2em;
+}
+
+#artigos h2 {
+  color: white;
+}
+
+.article-container {
+  background-color: white;
+  width: 100%;
+}
+
+.article-card {
+  background-color: rgb(6, 141, 157);
+  color: white;
+  padding: 1em;
+  text-align: center;
+  margin: 1px 0;
+}
+
+.article-card:hover {
+  background-color: rgb(59, 156, 167);
+}
+
+.article-card h3 {
+  font-size: 0.9em;
+  margin: 0.2em;
+
+}
+
+.article-card a:visited {
+  color: white;
+}

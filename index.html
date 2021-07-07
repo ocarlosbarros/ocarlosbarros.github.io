@@ -1,114 +1,127 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>Carlos Barros</title>
-    <style>
-    body
-    {
-        font-size:16px;
-        background-color:#F9F9ED;
-    }
-    h1
-    {
-        color:#279AF1;
-        font-size:3em;
-        font-family:'Roboto';
-    }
-
-    .description
-    {
-        font-family:'Roboto';
-    }
-
-    .highlight
-    {
-        color:#279AF1;
-        font-size:2.5em;
-    }
-
-    .highlight-tech
-    {
-        color:#564592;
-        font-size:1.5em;
-        font-weight:bold;
-    }
-
-    em
-    {
-        color:#564592;
-        font-weight:bold;
-    }
-
-    strong
-    {
-        text-decoration:underline;
-        font-size:1.1em;
-    }
-
-
-    
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Carlos Barros</title>
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#tecnologias">Tecnologias</a></li>
-            <li><a href="#dicas">Dicas</a></li>
+  <header id="cabecalho">
+    <h1 id="titulo">Carlos Barros</h1>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#licoes">Lições</a></li>
+        <li><a href="index.html#artigos">Artigos</a></li>
+        <li><a href="index.html#jornada">Minha Jornada</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- fim do header -->
+  <main>
+    <section class="sobre-mim">
+    <h2>Sobre Mim</h2>
+    <img id="minha_foto" src="/images/perfil.jpg" alt="Foto do desenvolvedor Carlos Barros">
+    <p>
+    Olá, pessoal !<br>
+    Meu nome é <strong>Carlos Barros</strong> sou <strong>brasileiro</strong> da cidade de <strong>Osasco - SP.</strong>
+    Atualmente estudando <strong>desenvolvimento Web Full Stack</strong> pela <strong>Trybe.</strong><br>Iniciei minha carreira em tecnologia no fim do ano de 2015 quando ingressei na <strong>FATEC.</strong>
+    Apaixonado e entusiasta de tecnologia tenho como missão pessoal impactar a vida das pessoas de forma positiva através do uso de tecnologias como:
+    <strong>HTML, </strong><strong>CSS, </strong><strong>Javascript, </strong><strong>React, <strong>NodeJS, </strong><strong>.NET Core </strong> e <strong>C#.</strong>
+    </p>
+    </section>
+    <section id="licoes">
+      <h2>Lições</h2>
+      <div class="licoes-container">
+        <ol id="licoes_aprendidas" class="lado-esquerdo">
+          <li>Unix</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>HTML</li>
+          <li>HTML Semântico</li>
+          <li>CSS</li>
+          <li>Como criar um perfil campeão - <em><a href="https://www.linkedin.com/in/ocarlosbarros/" target="_blank">LinkedIn!</a> (Abre uma nova janela)</em></li>
+          <li>Empatia</li>
+          <li><em>How to search like a dev</em></li>
+          <li>Slack</li>
+        </ol>
+        <ul id="licoes_a_aprender" class="lado-direito">
+          <li>Javascript</li>
+          <li>DOM</li>
+          <li>Forms</li>
+          <li>CSS Responsive</li>
+          <li>ES6</li>
+          <li>HOF</li>
+          <li>Unit Tests</li>
+          <li>React</li>
+          <li>Node</li>
+          <li>SQL</li>
         </ul>
-        <h1>Carlos Eduardo De Barros Souza</h1>
-        <img id="topo" src="images/perfil.jpg" alt="Foto de Carlos Barros" width="150px">
-        <p class="description">
-            Olá, pessoal!<br>
-            Meu nome é <strong>Carlos Barros</strong> sou <strong>brasileiro</strong> da cidade de <em>Osasco-SP.</em><br>
-            Atualmente estudando desenvolvimento web Full Stack pela Trybe, mas iniciei minha carreira em tecnologia no ano de 2015 através da universidade.<br>
-            Apaixonado e entusiasta de tecnologia tenho como missão pessoal impactar a vida das pessoas de forma positiva através do uso de
-            tecnologias como:<br>
-            <strong>HTML, </strong><strong>CSS, </strong><strong>Javascript, </strong>,<strong>React, </strong><strong>NodeJS, </strong><strong>NET Core, </strong> e <strong>C#</strong>. 
-        </p>
-    </header>
-    <hr>
-    <h2 id="habilidades" class="highlight">Habilidades</h2>
-    <p>Segue uma lista de habilidades que possuo importantes para que possamos trabalhar em parceria</p>
-    <ol>
-        <li><em>Resiliência</em></li>
-        <li>Resolução de problemas</li>
-        <li>Trabalho em Equipe</li>
-    </ol>
-
-    <h2 id="tecnologias" class="highlight">Tecnologias</h2>
-    <ol>
-        <li class="highlight-tech">.NET Core</li>
-        <p id="netcore">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae veniam quasi, voluptates sed eligendi ducimus fugiat explicabo illo repellat, enim temporibus vitae non maxime quia, debitis at vel aliquid veritatis.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae veniam quasi, voluptates sed eligendi ducimus fugiat explicabo illo repellat, enim temporibus vitae non maxime quia, debitis at vel aliquid veritatis.</p>
-        <li>C#</li>
-        <p></p>
-        <li id="html" class="highlight-tech">HTML</li>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo possimus accusantium ex ea, dolorum dolor obcaecati assumenda error rem laudantium soluta, aliquid dicta inventore veniam alias fugiat aperiam modi harum?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo possimus accusantium ex ea, dolorum dolor obcaecati assumenda error rem laudantium soluta, aliquid dicta inventore veniam alias fugiat aperiam modi harum?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo possimus accusantium ex ea, dolorum dolor obcaecati assumenda error rem laudantium soluta, aliquid dicta inventore veniam alias fugiat aperiam modi harum?</p>
-        <li class="highlight-tech">CSS</li>
-        <p></p>
-        <li class="highlight-tech">Javascript</li>
-        <p></p>
-    </ol>
-
-    <hr>
-
-    <h3 id="dicas" class="highlight">Dicas de conteúdo</h3>
-    <ol>
-        <li><a href="https://blog.betrybe.com/" target="_blank">Trybe</a></li>
-        <li><a href="http://gabsferreira.com/#open" target="_blank">Gabs Ferreira</a></li>
-    </ol>
-
-    <hr>
-
-    <a href="#topo">Voltar ao topo</a>
+    </div>
+    </section>
+    <aside id="artigos" class="lado-direito">
+      <h2>Meus artigos</h2>
+      <div class="article-container">
+        <div class="article-card">
+          <h3><a href="https://www.ctrlzeta.com.br/o-que-e-devops/" target="_blank">O que é DevOps? Princípios, Práticas e Ferramentas</a></h3>
+        </div>
+        <div class="article-card">
+          <h3><a href="https://www.ctrlzeta.com.br/descomplica-comandos-basicos-git/" target="_blank">Descomplica: conheça os comandos básicos do GIT</a></h3>
+        </div>
+        <div class="article-card">
+          <h3><a href="https://www.ctrlzeta.com.br/descomplica-git/" target="_blank">Descomplica: Como funciona o versionamento com GIT</a></h3>
+        </div>
+      </div>
+    </aside>
+    <section class="projetos">
+      <h2>Projetos</h2>
+      <table class="table-projetos">
+        <thead>
+          <tr>
+            <th>Projeto</th>
+            <th>Descrição</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Portfólio Pessoal</td>
+            <td>Portfólio pessoal para apresentação de projetos desenvolvidos, habilidades e tecnologias</td>
+            <td><a href="https://ocarlosbarros.github.io/" target="_blank">Carlos Barros</a></td>
+          </tr>
+          <tr>
+            <td>API NLW Valoriza</td>
+            <td>API NLW Valoriza criada em Nodejs com typescript e JWT, durante a NLW - 06 da Rocketseat</td>
+            <td><a href="#" target="_blank">Em Breve</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <article id="jornada">
+    <h2>Minha Jornada!</h2>
+    <p>
+      "Não é todo mundo que vai entender o seu caminho. Mas tudo bem, não é deles é o seu".<br>
+      (espiritual-jornada).
+    </p>
+    <p>
+      Como já dito anteriormente iniciei minha carreira em tecnologia quando estava na Universidade em 2015 ao ingressar
+      na FATEC-Carapicuíba no curso de Sistemas para Internet, lá começei meus primeiros passos com programação na aula de 
+      Algoritmos e lógica de programação em linguagem C.<br>
+      Saiba mais...
+    </p>
+  </article>
+    </section>
+  <footer id="rodape">
+    <p>Desenvolvido com <span class="hurt">&#128156;</span> <strong>HTML</strong> e <strong>CSS</strong> | por &copy <strong class="developer">Carlos Barros.</strong></p>
+  </footer>
 </body>
 </html>
