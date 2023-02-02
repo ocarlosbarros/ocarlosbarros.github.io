@@ -9,7 +9,8 @@ module.exports = {
             colors: {
                 'primary': '#6D2EB0',
                 'secondary': '#2C2447',
-                'highlight': '#FFFF2B'
+                'highlight': '#FFFF2B',
+                'black': '#262424',
             },
             fontFamily: {
                 'workSuns': ["Work Suns", "Roboto", "sans-serif"]
