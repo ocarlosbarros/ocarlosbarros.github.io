@@ -22,6 +22,9 @@ module.exports = {
                     '60%': { transform: 'translateY(-15px)' }
                }
             },
+            backgroundImage: {
+                'waves': "url('../assets/waves.svg')"
+            }
         },
     },
   plugins: [],
