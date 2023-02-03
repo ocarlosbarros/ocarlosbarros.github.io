@@ -4,7 +4,9 @@ import { MouseSimple, CaretDoubleDown } from 'phosphor-react';
 
 export function Header() {
     return (
-        <header className="flex-col h-screen bg-gradient-to-b from-primary to-secondary">
+
+        <header className="flex-col bg-gradient-to-b from-primary to-secondary w-screen">
+            <div className="h-screen w-screen bg-no-repeat bg-cover bg-waves border-primary">
             <Menu />
             <div className="flex flex-wrap justify-center items-end w-full h-[80%]">
                 <h1 className="text-6xl">Olá, eu sou o <span className="text-highlight">Carlos Barros</span></h1>
@@ -15,7 +17,9 @@ export function Header() {
                     </a>
                     <a href="#projects" className="cursor-pointer"><p className="text-2xl">Visualizar projetos</p></a>
                 </div>
+                </div>
             </div>
         </header>
+
     );
 }
