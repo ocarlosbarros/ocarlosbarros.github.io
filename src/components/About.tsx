@@ -11,7 +11,7 @@ export function About() {
             <div className="w-1/2 h-screen">
                 <div className="h-[91.2%] flex items-center justify-center">
                    <div className="text-center h-[50%] p-5 text-lg">
-                        <Heading text="Olá" />
+                        <Heading id="about" text="Olá" />
                         <p className="p-1">
                             Olá, sou Carlos Barros. Iniciei minha trajetório em tecnologia em 2015
                             através do curso de Sistemas para Internet pela FATEC-Carapicuíba. Formado
