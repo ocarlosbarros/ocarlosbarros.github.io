@@ -1,6 +1,6 @@
 export function Menu() {
     return (
-        <nav className="w-screen h-[15%] flex grow items-center justify-between pl-10">
+        <nav className="h-[15%] flex grow items-center justify-between pl-10">
             <div>
                 <p className="text-3xl">&lt; C B / &gt;</p>
             </div>
